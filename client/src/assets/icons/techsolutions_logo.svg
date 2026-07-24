@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a8ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#techGrad)"/>
+  <!-- Title: Tech Solutions Inc -->
+  <!-- Central design: Circuit board pattern with tech elements -->
+  <g transform="translate(100, 100)">
+    <!-- Central node -->
+    <circle cx="0" cy="0" r="12" fill="white" stroke="white" stroke-width="1"/>
+    <!-- Connected lines -->
+    <line x1="0" y1="0" x2="35" y2="-20" stroke="white" stroke-width="2" opacity="0.9"/>
+    <line x1="0" y1="0" x2="30" y2="30" stroke="white" stroke-width="2" opacity="0.9"/>
+    <line x1="0" y1="0" x2="-35" y2="20" stroke="white" stroke-width="2" opacity="0.9"/>
+    <line x1="0" y1="0" x2="-25" y2="-30" stroke="white" stroke-width="2" opacity="0.9"/>
+    <!-- End nodes -->
+    <circle cx="35" cy="-20" r="8" fill="white"/>
+    <circle cx="30" cy="30" r="8" fill="white"/>
+    <circle cx="-35" cy="20" r="8" fill="white"/>
+    <circle cx="-25" cy="-30" r="8" fill="white"/>
+  </g>
+</svg>

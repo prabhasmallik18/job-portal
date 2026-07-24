@@ -1,0 +1,33 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Networking Icon -->
+  <defs>
+    <linearGradient id="networkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main globe/network -->
+  <circle cx="32" cy="28" r="14" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Horizontal lines -->
+  <line x1="18" y1="28" x2="46" y2="28" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="20" y1="22" x2="44" y2="22" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="20" y1="34" x2="44" y2="34" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Connection nodes -->
+  <circle cx="18" cy="28" r="2.5" fill="white"/>
+  <circle cx="32" cy="18" r="2.5" fill="white"/>
+  <circle cx="46" cy="28" r="2.5" fill="white"/>
+  <circle cx="32" cy="42" r="2.5" fill="white"/>
+  
+  <!-- Connection lines to external nodes -->
+  <line x1="18" y1="28" x2="12" y2="48" stroke="white" stroke-width="1" opacity="0.5"/>
+  <line x1="46" y1="28" x2="52" y2="48" stroke="white" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="42" x2="32" y2="54" stroke="white" stroke-width="1" opacity="0.5"/>
+  
+  <!-- External nodes -->
+  <circle cx="12" cy="48" r="1.5" fill="white"/>
+  <circle cx="52" cy="48" r="1.5" fill="white"/>
+  <circle cx="32" cy="54" r="1.5" fill="white"/>
+</svg>

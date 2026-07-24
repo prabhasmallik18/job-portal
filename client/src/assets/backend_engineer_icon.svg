@@ -1,0 +1,39 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Backend Engineer (Node.js) Icon -->
+  <defs>
+    <linearGradient id="backendGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Server/Backend representation -->
+  <!-- Main server box -->
+  <rect x="14" y="16" width="36" height="8" fill="none" stroke="white" stroke-width="2" rx="1"/>
+  <line x1="14" y1="22" x2="50" y2="22" stroke="white" stroke-width="1" opacity="0.5"/>
+  <circle cx="18" cy="19" r="1.5" fill="white"/>
+  <circle cx="22" cy="19" r="1.5" fill="white"/>
+  <circle cx="26" cy="19" r="1.5" fill="white"/>
+  
+  <!-- Second server -->
+  <rect x="14" y="28" width="36" height="8" fill="none" stroke="white" stroke-width="2" rx="1"/>
+  <line x1="14" y1="34" x2="50" y2="34" stroke="white" stroke-width="1" opacity="0.5"/>
+  <circle cx="18" cy="31" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="22" cy="31" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="26" cy="31" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Third server -->
+  <rect x="14" y="40" width="36" height="8" fill="none" stroke="white" stroke-width="2" rx="1"/>
+  <line x1="14" y1="46" x2="50" y2="46" stroke="white" stroke-width="1" opacity="0.5"/>
+  <circle cx="18" cy="43" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="22" cy="43" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="26" cy="43" r="1.5" fill="white" opacity="0.7"/>
+  
+  <!-- Connection lines (representing Node.js communication) -->
+  <line x1="50" y1="20" x2="54" y2="24" stroke="white" stroke-width="1" opacity="0.6"/>
+  <line x1="50" y1="32" x2="54" y2="32" stroke="white" stroke-width="1" opacity="0.6"/>
+  <line x1="50" y1="44" x2="54" y2="40" stroke="white" stroke-width="1" opacity="0.6"/>
+  <circle cx="56" cy="24" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="56" cy="32" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="56" cy="40" r="1.5" fill="white" opacity="0.7"/>
+</svg>

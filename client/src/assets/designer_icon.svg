@@ -1,0 +1,35 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- UI/UX Designer Icon -->
+  <defs>
+    <linearGradient id="designGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f43f5e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Monitor/Screen -->
+  <rect x="10" y="12" width="44" height="30" fill="none" stroke="white" stroke-width="2.5" rx="3"/>
+  
+  <!-- Screen Content - Design Elements -->
+  <!-- Color Circles -->
+  <circle cx="18" cy="22" r="3" fill="white" opacity="0.8"/>
+  <circle cx="28" cy="22" r="3" fill="white" opacity="0.6"/>
+  <circle cx="38" cy="22" r="3" fill="white" opacity="0.7"/>
+  
+  <!-- Waves/Lines for design -->
+  <path d="M 18 30 Q 23 28 28 30 T 38 30" stroke="white" stroke-width="1.5" fill="none"/>
+  <path d="M 18 35 Q 23 33 28 35 T 38 35" stroke="white" stroke-width="1.5" fill="none"/>
+  
+  <!-- Stand -->
+  <rect x="22" y="42" width="20" height="2.5" fill="white" rx="1"/>
+  
+  <!-- Base -->
+  <ellipse cx="32" cy="47" rx="14" ry="3" fill="white" opacity="0.8"/>
+  
+  <!-- Design Palette Symbol -->
+  <circle cx="50" cy="48" r="6" fill="none" stroke="white" stroke-width="1.5"/>
+  <circle cx="48" cy="46" r="1.5" fill="white"/>
+  <circle cx="52" cy="46" r="1.5" fill="white"/>
+  <circle cx="48" cy="50" r="1.5" fill="white"/>
+  <circle cx="52" cy="50" r="1.5" fill="white"/>
+</svg>

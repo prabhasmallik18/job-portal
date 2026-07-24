@@ -1,0 +1,32 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Design/Creative Icon -->
+  <defs>
+    <linearGradient id="designingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Palette -->
+  <path d="M 16 28 Q 16 16 28 16 Q 40 16 40 28 Q 40 40 28 40 Q 16 40 16 28" fill="none" stroke="white" stroke-width="2.5"/>
+  
+  <!-- Palette handle -->
+  <ellipse cx="44" cy="32" rx="3" ry="6" fill="white" opacity="0.8"/>
+  
+  <!-- Color dots on palette -->
+  <!-- Red -->
+  <circle cx="22" cy="22" r="2.5" fill="white" opacity="0.9"/>
+  <!-- Yellow -->
+  <circle cx="28" cy="18" r="2.5" fill="white" opacity="0.85"/>
+  <!-- Blue -->
+  <circle cx="36" cy="22" r="2.5" fill="white" opacity="0.9"/>
+  <!-- Green -->
+  <circle cx="34" cy="32" r="2.5" fill="white" opacity="0.8"/>
+  <!-- Purple -->
+  <circle cx="26" cy="34" r="2.5" fill="white" opacity="0.85"/>
+  
+  <!-- Brush strokes (design element) -->
+  <path d="M 16 46 Q 20 42 24 48" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 28 44 Q 32 40 36 48" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 40 46 Q 44 42 48 50" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

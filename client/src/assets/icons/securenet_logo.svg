@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="securenetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#securenetGrad)"/>
+  <!-- Central design: Security shield with lock -->
+  <g transform="translate(100, 100)">
+    <!-- Shield -->
+    <path d="M -20 -25 L 0 -35 L 20 -25 L 20 0 Q 0 20, 0 28 Q 0 20, -20 0 Z" fill="white" stroke="white" stroke-width="1.5"/>
+    <!-- Lock body -->
+    <rect x="-8" y="2" width="16" height="12" rx="2" fill="transparent" stroke="white" stroke-width="2.5"/>
+    <!-- Lock shackle -->
+    <path d="M -6 2 Q -6 -8, 0 -8 Q 6 -8, 6 2" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Lock keyhole -->
+    <circle cx="0" cy="8" r="2" fill="white"/>
+  </g>
+</svg>
